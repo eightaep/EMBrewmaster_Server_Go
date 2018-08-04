@@ -1,0 +1,56 @@
+[{
+    "kettles": [{
+            "actors": [{
+                "key": "boil-indPlate",
+                "minusPin": 12,
+                "name": "Boil Induction Plate",
+                "plusPin": 11,
+                "standbyPin": 10,
+                "type": "indPlate"
+            }],
+            "function": "boil",
+            "name": "Boil Kettle",
+            "no": 2,
+            "sensors": [{
+                "key": "boil-temp",
+                "1-wire-id": "28-03165567bfff",
+                "name": "Boil Temp",
+                "type": "temperature",
+                "unit": "Celsius"
+            }],
+            "size": 10,
+            "key": "boil-kettle"
+        },
+        {
+            "actors": [{
+                    "key": "mash-indPlate",
+                    "minusPin": 21,
+                    "name": "Mash Induction Plate",
+                    "plusPin": 23,
+                    "standbyPin": 24,
+                    "type": "indPlate"
+                },
+                {
+                    "key": "mash-mixer",
+                    "name": "Mash Mixer",
+                    "pin": 4,
+                    "type": "mixer"
+                }
+            ],
+            "key": "mash-ton",
+            "function": "mash|lauter",
+            "name": "Mash Ton",
+            "no": 1,
+            "sensors": [{
+                "key": "mash-temp",
+                "1-wire-id": "28-041658b379ff",
+                "name": "Mash Temp",
+                "type": "temperature",
+                "unit": "Celsius"
+            }],
+            "size": 10
+        }
+    ],
+    "name": "Recipe test system, 1 kettle",
+    "key": "RecipeTestSystem"
+}]
